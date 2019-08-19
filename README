@@ -1,0 +1,11 @@
+Installation Steps:
+
+1. Install Miniconda with python 3.* version (https://docs.conda.io/en/latest/miniconda.html)
+2. Install libraries required
+    pip install -r requirements.txt
+
+Running main.py:
+
+3. Run main.py mentioning two arguments: ip_file (path of csv file containing two columns with images), op_file (path
+of csv file to write with desired output)
+     python main.py -ip_file IP.csv -op_file OP.csv
